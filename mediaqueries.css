@@ -1,0 +1,87 @@
+/* Estilos para tablet */
+
+@media (max-width:992px) {
+    .navbar {
+        gap: 10px;
+    }
+
+    .ulnav {
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-color: rgb(33, 95, 74);
+        border: 2px solid black;
+        border-top: none;
+        border-radius: 0px 0px 15px 15px;
+        align-items: center;
+        padding: 45px 30px;
+        gap: 25px;
+        overflow: auto;
+        /* z-index: 2;
+        display: none; */
+    }
+    .menudesplegable:checked + .ulnav{
+        display: flex;
+    }
+    .carrito{
+        cursor: pointer;
+    }
+    .menudesplegable{
+        display: none;
+    }   
+    
+    
+
+
+    .li {
+        font-size: 20px;
+    }
+
+
+    .ofertas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #comidas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .supercomidas1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+
+
+    .superpromos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 5px 10px;
+        gap: none;
+    }
+
+    .carrito {
+        display: flex;
+        color: #fff;
+    }
+
+}
+
+/* 18min  */

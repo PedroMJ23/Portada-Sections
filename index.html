@@ -7,28 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 
 <body>
     <header class="headerclass">
         <a href="index.html"><img class="logo" src="./assets/comida-chatarra.png" alt="logo"></a>
+
         <nav class="navbar">
+            <label for="menudesplegable" class="menu_icono_desplegable"> <img src="./assets/menu.png" alt="menuimg" class="carrito"></label>
+            <input type="checkbox" id="menudesplegable" class="menudesplegable">
             <ul class="ulnav">
                 <li class="li"><a href="#" rel="styles.css">Menú </a></li>
                 <li class="li"><a href="#">Sucursales</a> </li>
                 <li class="li"><a href="#">Take Away</a> </li>
                 <li class="li"><a href="#">Contacto</a> </li>
                 <!-- <div class="row"></div> para hacer una clase puse .row y aprete tab -->
+                
             </ul>
+            
+                
+                   
+                
         </nav>
-        <a href="#"> <img class="carrito" src="./assets/carrito.png" alt="carritodecompras"> </a>
+       
     </header>
     <main>
         <div class="fondo11">
             <section id="comidas">
                 <div class="supercomidas1">
 
-                    <h1>  Super Comidas </h1>
+                    <h1> Super Comidas </h1>
                     <p class="presentacion"> En Super Comidas vas a encontrar las mejores hamburguesas, papas y panchos.
                         La
                         mejor calidad al mejor precio. Además contamos con un Coffe-Bar para los mejores desayunos.
@@ -39,7 +48,7 @@
                 </div>
                 <div class="ofertas">
                     <div class="infocomida1">
-                        <div>
+                        <div class="imghamburguesa">
                             <img class="imagenhamburguesa" src="./assets/hamburguesa.jpg" alt="hamburguesa1">
                         </div>
                         <div class="infodecarta">
@@ -71,22 +80,26 @@
         </div>
         </div>
         <section class="infodepagina">
-            <p> En Super Comidas nos dedicamos a hacer de nuestras comidas tu comida preferida. Nuestros productos son de la mejor calidad. Nuestra atención garantiza el 100% de satisfacción porque creemos que comer bien es sinónimo de ser bien atendido. No sólo queremos ser los mejores sino que hacemos todo para ser tu mejor elección. Nuestros menus estan adaptados a todas las dietas. Contamos con promociones especiales todos los días y todas las semanas. </p>
-            
+            <p> En Super Comidas nos dedicamos a hacer de nuestras comidas tu comida preferida. Nuestros productos son
+                de la mejor calidad. Nuestra atención garantiza el 100% de satisfacción porque creemos que comer bien es
+                sinónimo de ser bien atendido. No sólo queremos ser los mejores sino que hacemos todo para ser tu mejor
+                elección. Nuestros menus estan adaptados a todas las dietas. Contamos con promociones especiales todos
+                los días y todas las semanas. </p>
+
 
         </section>
         <section>
             <h1 class="titulosuperpromo"> Super Promos todos los dias </h1>
             <div class="superpromos">
-                <div>
+                <div class="promo_1">
                     <p>Lunes a miércoles </p>
                     <img class="iconopromo" src="./assets/coffee_cup_icon_129363.png" alt="promocafe">
                 </div>
-                <div>
+                <div class="promo_1">
                     <p>Jueves y viernes</p>
                     <img class="iconopromo" src="/assets/dieta.png" alt="promosaludable">
                 </div>
-                <div>
+                <div class="promo_1">
                     <p>Sábados y domingos</p>
                     <img class="iconopromo" src="./assets/comida-rapida.png" alt="papasyhambuerguesas">
                 </div>
@@ -98,10 +111,28 @@
 
 
         </section>
+        <section class="lastsection">
+
+            <h1> ¿Por qué elegirnos? </h1>
+            <div class="lastsectiondiv">
+
+                <p> Trabajamos para la gente que disfruta de nuestra comida. Buscamos ofrecer lo mejor a lo mejor
+                    que tenemos: nuestros clientes. Es indispensable para nosotros entregar un servicio y productos
+                    de calidad para que cada persona que venga se vaya satisfecha. Sabemos que la felicidad no se
+                    compra, pero se siente. Y queremos hacerte feliz cuando venga a nuestras sucursales.
+                </p>
+            </div>
+
+        </section>
 
     </main>
-    <footer>
-git
+    <footer class="footerclass">
+        <h2>Nuestras redes sociales </h2>
+        <div class="social">
+            <a href="#"> <img src="./assets/facebook.png" alt="facebooklink" class="iconosfooter"> </a>
+            <a href="#"> <img src="./assets/instagram.png" alt="instagramlink" class="iconosfooter"> </a>
+
+        </div>
     </footer>
 
 </body>
